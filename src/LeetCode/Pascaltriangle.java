@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Pascal
 public class Pascaltriangle {
 
 	public static void main(String[] args) {
@@ -20,6 +20,7 @@ public class Pascaltriangle {
 		res.add(temp);
 		temp = null;
 		List<Integer> inter;
+		
 		for(int i=1;i<num;i++) {
 			temp = new ArrayList<>(i+1);
 			temp.add(1);
