@@ -1,0 +1,2 @@
+Inheritance 
+	Class with get access to accessible properties of parent 
